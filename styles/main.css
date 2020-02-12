@@ -1,0 +1,13 @@
+.banner{
+    background: url('../images/banner.jpg');
+    padding:20px;
+}
+.company-logo{
+    color: rgba(255, 255,255, .6);
+}
+img{
+    height: 35vh;
+}
+.col{
+   margin: 5px;
+}
