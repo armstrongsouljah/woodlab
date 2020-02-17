@@ -23,127 +23,24 @@
        </div>
        <div class="col s12">
            <h5 class="center grey-text">Our products</h5>
-           <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image1.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-               <div class="card-content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
+         {% include 'lightbox.html' %}
+       </div>
+    </div>
+    
+    <footer class="page-footer footer-section blue-grey darken-3">
+       <div class="container">
+           <div class="row">
+               <div class="col offset-s6">
+                   <h6>Contact Us</h6>
+                   <p>
+                       Phone<br/>
+                       Address</br>
+                   </p>
                </div>
            </div>
-           <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image2.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image3.jpeg' %}" alt="product image"/>
-                <span class="card-title">Wooden floor</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image4.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image5.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image6.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image7.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image8.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image9.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image10.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image11.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
-        <div class="col s12 m4 l4 card">
-            <div class="card-image">
-                <img src="{% static 'img/image12.jpeg' %}" alt="product image"/>
-                <span class="card-title">Product Name</span>
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur soluta incidunt.</p>
-            </div>
-        </div>
        </div>
-       <div class="col s12">
-           <div class="col offset-s6 s6">
-               <h6>Contact Us</h6>
-               <p>
-                   Company name <br/>
-                   Address: plot 1, 4th st, MA <br/>
-                   Phone: (932)-555-345 <br/>
-                   Email: company@mail.com
-                </p>
-           </div>
-       </div>
-    </div>
-    </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="{% static 'js/main.js' %}" />
 </body>
 </html>
