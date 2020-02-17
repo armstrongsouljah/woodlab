@@ -1,5 +1,7 @@
 .banner{
-    background: url('../images/banner.jpg');
+    background: url('../img/banner2.jpeg') no-repeat;
+    background-size: cover;
+    height:50vh;
     padding:20px;
 }
 .company-logo{
