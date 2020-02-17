@@ -8,27 +8,34 @@
     <title>Woodland</title>
     <link rel="stylesheet" href="{% static 'styles/main.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="grey lighten-4">
-    <div class="banner">
+    {% include 'navbar.html' %}
+    <div id="banner" class="banner scrollspy section">
         <h1 class="company-logo center">Company Name</h1>
     </div>
     <div class="container row">
-       <div class="col s12">
+       <div id="about" class="col s12 section scrollspy">
            <h3 class="grey-text">About us</h3>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Illum hic voluptas unde repellat dignissimos, quos fugit itaque expedita perspiciatis maiores optio earum fuga mollitia culpa iure nostrum exercitationem?
              Quibusdam sed totam laboriosam ipsam fugiat?</p>
        </div>
-       <div class="col s12">
+       <div id="products" class="col s12 section scrollspy">
            <h5 class="center grey-text">Our products</h5>
          {% include 'lightbox.html' %}
        </div>
     </div>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red tooltipped" data-positon="top" data-tooltip="Scroll to top" href="#banner">
+          <i class="large material-icons">arrow_upward</i>
+        </a>
+      </div>
     
-    <footer class="page-footer footer-section blue-grey darken-3">
-       <div class="container">
+    <footer id="#contactus" class="page-footer footer-section blue-grey darken-3">
+       <div class="container section scrollspy">
            <div class="row">
                <div class="col offset-s6">
                    <h6>Contact Us</h6>
@@ -36,6 +43,9 @@
                        Phone<br/>
                        Address</br>
                    </p>
+               </div>
+               <div class="col offset-s3 col-s6">
+                   <p class="center">&copy; CompanyName {% now "Y" %}</p>
                </div>
            </div>
        </div>
