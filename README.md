@@ -3,6 +3,7 @@ Wood business site.
 
 #### Project setup
 - Clone the repository to your local machnine
+- Navigate to the project directory on your local machine
 - Install python 3.7 or later
 - Install pipenv
 - Activate the virtual environment using `pipenv shell` command.
