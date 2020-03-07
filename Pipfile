@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 django = "==2.1"
+gunicorn = "*"
+whitenoise = "*"
+python-decouple = "*"
 
 [dev-packages]
 
